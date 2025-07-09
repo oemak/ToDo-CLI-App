@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="storage.FileStorageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-07-09T21:58:58" hostname="DESKTOP-I3RIVDJ" time="0.544">
+  <properties/>
+  <testcase name="testLoadFromEmptyFileReturnsEmptyList()" classname="storage.FileStorageTest" time="0.32"/>
+  <testcase name="testLoadFromNonexistentFileReturnsEmptyList()" classname="storage.FileStorageTest" time="0.001"/>
+  <testcase name="testSaveAndLoadTasks()" classname="storage.FileStorageTest" time="0.217"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

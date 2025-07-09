@@ -12,6 +12,14 @@ public class Task {
     public Task() {
     }
 
+    public Task(int id, String title, Boolean done) {
+        this.id = id;
+        this.title = title;
+        this.description = "";
+        this.done = done;
+        this.dueDate = null; 
+    }
+
     public Task(int id, String title, String description, boolean done, LocalDate dueDate) {
         this.id = id;
         this.title = title;
