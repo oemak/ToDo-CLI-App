@@ -1,4 +1,4 @@
-package src.model;
+package model;
 
 import java.time.LocalDate;
 
@@ -8,6 +8,9 @@ public class Task {
     private String description;
     private boolean done;
     private LocalDate dueDate;
+
+    public Task() {
+    }
 
     public Task(int id, String title, String description, boolean done, LocalDate dueDate) {
         this.id = id;
